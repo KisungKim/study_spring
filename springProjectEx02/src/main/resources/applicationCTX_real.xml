@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+	profile="real"
+	>
+	<bean id="serverInfo" class="com.kisung.day0713.ServerInfo">
+		<property name="ipNum" value="173.164.2.3"></property>
+		<property name="portNum" value="6994"></property>
+	</bean>
+	
+
+
+</beans>

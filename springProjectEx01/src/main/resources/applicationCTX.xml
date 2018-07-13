@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="001" class="com.kskim.day0711.Student">
+	<property name="stdId">
+		<value>001</value>
+	</property>
+	<property name="name">
+		<value>Kim</value>
+	</property>
+	<property name="grade">
+		<value>3.5</value>
+	</property>
+	<property name="course">
+		<value>DataStructure</value>
+	</property>
+</bean>
+<bean id="002" class="com.kskim.day0711.Student">
+	<property name="stdId">
+		<value>002</value>
+	</property>
+	<property name="name">
+		<value>Park</value>
+	</property>
+	<property name="grade">
+		<value>4</value>
+	</property>
+	<property name="course">
+		<value>DataStructure</value>
+	</property>
+</bean>
+<bean id="class01" class="com.kskim.day0711.StudentManager"></bean>
+
+
+
+</beans>
